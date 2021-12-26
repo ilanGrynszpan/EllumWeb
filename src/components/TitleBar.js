@@ -1,7 +1,7 @@
 import React from "react";
 import {Navbar, Nav, Container} from 'react-bootstrap';
   
-
+import Resources, { logo } from '../Resources';
 
 const TitleBar = (props) => {  
     
@@ -10,7 +10,7 @@ const TitleBar = (props) => {
         <Navbar collapseOnSelect expand="md" sticky="top" style={{backgroundColor:"#F4F4F4" }}>
           <Container fluid>
           <Navbar.Brand href="/">
-              <h1 style={{color:"#1F5F30"}}>{props.nb_title}</h1>
+              <img className="logo-img" src={logo} />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='responsive-navbar-nav' />
             <Navbar.Collapse id='responsive-navbar-nav'>

@@ -1,0 +1,29 @@
+.instrucoes {
+    color: rgb(61, 61, 51);
+    background-color: #F4F4F4;
+    margin-top: 30px;
+}
+
+.instrucoes h5 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.instrucoes td {
+    width: 33vw;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+.instrucoes svg {
+    padding-top: 0.5em;
+}
+
+.instrucoes p {
+    font-size: 1em;
+    text-align: center;
+    padding-left: 1em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    width: 70%;
+}

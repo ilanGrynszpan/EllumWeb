@@ -2,7 +2,7 @@
 .chamada {
     color: rgb(1, 1, 1);
     text-align: center;
-    margin: 30px 0px;
+    margin: 1rem 2rem 1rem 0.5rem;
 }
 
 .chamada h1 {
@@ -13,82 +13,38 @@
 .descricao {
     color: rgb(75, 166, 75);
     text-align: center;
-    margin: 30px 0px;
-}
+    margin: 0.2rem 1rem;
 
-.instrucoes {
-    color: rgb(61, 61, 51);
-    background-color: #F4F4F4;
-    margin-top: 30px;
-}
+    width: 90vw;
 
-.instrucoes h5 {
-    text-align: center;
-    padding-top: 10px;
-}
-
-.instrucoes td {
-    width: 30vw;
-    text-align: center;
-    vertical-align: text-top;
-}
-
-.instrucoes svg {
-    padding-top: 10px;
-}
-
-.instrucoes p {
-    font-size: 10px;
-    margin-left: 4vw;
-    width: 70%;
 }
 
 .cta {
     display: inline-block;
     width: 100vw;
     height: fit-content;
+    margin: 0px 0px 0px 0px;
+    padding: 0%;
 }
 
 .cta h5 {
     width: 60%;
     float: left;
-    font-size: 15px;
+    font-size: 1.5em;
     padding-left: 4vw;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 3em;
+    margin-bottom: 3em;
     padding-left: 30px;
     padding-right: 30px;
 }
 
 .cta button {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.parceiros {
-    color: rgb(61, 61, 51);
-    background-color: #F4F4F4;
-}
-
-.parceiros h5 {
-    text-align: center;
-    padding-top: 10px;
-}
-
-.parceiros td {
-    width: 30vw;
-    text-align: center;
-    vertical-align: text-top;
-}
-
-.parceiros svg {
-    padding-top: 10px;
-}
-
-.parceiros p {
-    font-size: 10px;
-    margin-left: 4vw;
-    width: 70%;
+    float: right;
+    margin-bottom: 3em;
+    margin-right: 3em;
+    margin-top: 4em;
+    width: 10em;
+    height: 5em;
 }
 
 .footer {
